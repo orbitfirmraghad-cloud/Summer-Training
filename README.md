@@ -43,7 +43,7 @@ cd Summer-Training
 conda create -n cv-training python=3.10 -y
 conda activate cv-training
 ```
-Install the standard required packages from the requirements.txt file:
+**3.  Install the standard required packages from the requirements.txt file**
 ```bash
 pip install -r requirements.txt
 ```

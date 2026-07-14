@@ -57,19 +57,17 @@ pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
 ```
 
 ## 🔄 Keeping Your Repo Up to Date
-
-Since this repository is updated you will need to sync your local copy.
-If you have modified files a standard pull might fail. 
-
+This repo gets updated regularly. To avoid conflicts, don't edit the course files directly. Do your exercise work in a personal folder (e.g. my-work/) or make a copy of any notebook before changing it.
+To get the latest updates:
 ```bash
-# 1. Temporarily save your local changes out of the way
-git stash
+git pull
+```
+If you edited a course file and pull fails, discard your local changes to that file and pull again (back up anything you want to keep first):
+```bash
 
-# 2. Pull the latest updates from GitHub
-git pull 
+git checkout -- <filename>
 
-# 3. Bring your local changes back
-git stash pop
+git pull
 ```
 ## 📚 How to Use This Course
 

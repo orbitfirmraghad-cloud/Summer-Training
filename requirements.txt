@@ -1,8 +1,7 @@
 # Computer Vision Summer Training — Requirements
 # Install with:  pip install -r requirements.txt
 
-# Core deep learning
-torch
+
 # Segmentation & detection
 segmentation-models-pytorch
 ultralytics
